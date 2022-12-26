@@ -7,6 +7,7 @@ from PIL import Image
 from io import BytesIO
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 from imageai.Detection import ObjectDetection
 
 
