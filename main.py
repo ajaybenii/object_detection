@@ -13,7 +13,7 @@ from imageai.Detection import ObjectDetection
 
 detector = ObjectDetection()
 detector.setModelTypeAsRetinaNet()
-detector.setModelPath("resnet50.h5")
+detector.setModelPath("retinanet_resnet50_fpn_coco-eeacb38b.pth")
 detector.loadModel()
 
 app = FastAPI()
